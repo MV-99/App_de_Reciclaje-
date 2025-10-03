@@ -29,11 +29,6 @@ function Cards() {
         ))}
       </div>
       
-      <button type="submit">Registrar reciclaje</button>
-      <div className="espacio">
-
-      </div>
-
 
 
     </>
