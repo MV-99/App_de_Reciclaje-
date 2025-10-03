@@ -1,38 +1,12 @@
-:root {
-  font-family: system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(160deg, #f5f4cb , var(--verde-claro));
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  --verde-oscuro: #2e7d32; /*#81c784*/
-  --verde-medio: #4caf50;  /*#4caf50*/
-  --verde-claro: #ace2cd;
-}
-
-
-body {
+*{
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  font-size: 2em;
-  line-height: 1.1;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+body{
+  background-color: #ECF7F1;
 }

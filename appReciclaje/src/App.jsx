@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import Cards from './components/cards/cards';
 import './App.css'
 import Record from './pages/Home/Components/Record/Record'
 
 
 
 function App() {
-  
   return (
     <>
       <div>
