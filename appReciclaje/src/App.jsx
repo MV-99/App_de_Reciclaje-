@@ -1,11 +1,20 @@
+
 import { useState } from 'react'
+<<<<<<< HEAD
 import './App.css'
 import Record from './pages/Home/Components/Record/Record'
 
 
+=======
+import react from 'react';
+import Login from './Login/Login.jsx';
+>>>>>>> 0f4e159a521157687db91c38d8ce0f58af300173
 
+
+//app principal
 function App() {
   return (
+<<<<<<< HEAD
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -32,6 +41,11 @@ function App() {
     <div><Cards/></div>
 
     </>
+=======
+    <div>
+      
+    </div>
+>>>>>>> 0f4e159a521157687db91c38d8ce0f58af300173
   );
 }
 
