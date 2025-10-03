@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import Cards from './components/cards/cards';
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
-import Record from './pages/Home/Components/Record/Record'
-
-
 
 function App() {
-  
+  const [count, setCount] = useState(0)
+
   return (
     <>
       <div>
@@ -29,12 +28,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-
-      <Record />
-    <div><Cards/></div>
-
     </>
-  );
+  )
 }
 
-export default App;
+export default App
