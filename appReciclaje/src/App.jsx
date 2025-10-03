@@ -8,7 +8,7 @@ import Login from './Login/Login.jsx';
 function App() {
   return (
     <div>
-      hola
+      
     </div>
   );
 }

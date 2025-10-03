@@ -81,7 +81,7 @@ export default function Login() {
         }}>
             <div
                 style={{
-                    backgroundColor: 'white',
+                    backgroundColor: '#ECF7F1',
                     width: '600px',
                     height: '600px',
                     borderRadius: '15px',
