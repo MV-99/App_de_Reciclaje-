@@ -48,11 +48,18 @@ function App() {
     if (value.length > maxLength) {
       setEmailError(`Máximo ${maxLength} caracteres`);
     } else if (!/^\S+@\S+\.\S+$/.test(value)) {
-      setEmailError("Debe ser un email válido");
+      setEmailError("Porfavor escriba un email valido");
     } else {
       setEmailError("");
     }
   };
+//funcion prueba de boton
+  function TocarBoton(){
+
+    return(
+      alert("No se puede iniciar sesion, la pagina esta en construccion, gracias🦄🪴🦋")
+    );
+  }
 
   return (
     <div>
@@ -70,7 +77,7 @@ function App() {
           <h2 style={{ fontSize: '30px', marginTop: '10px' }}>¡Bienvenido a EcoPoints!</h2>
           <h4 style={{ marginTop: '-20px', fontWeight: 'normal' }}>Ingresa tus credenciales</h4>
           <div style={{ marginTop: '90px' }}>
-            <h5 style={{ marginTop: '-50px', marginRight: '350px' }}>Usuario</h5>
+            <h5 style={{ marginTop: '-50px', marginRight: '390px' }}>🧜‍♀️Usuario</h5>
             <input
               placeholder="   User123@example.com"
               type="email"
@@ -91,7 +98,7 @@ function App() {
             {emailError && (
               <div style={{ color: 'red', fontSize: '12px', marginTop: '2px', marginBottom: '8px' }}>{emailError}</div>
             )}
-            <h5 style={{ marginTop: '10px', marginRight: '330px' }}>  Contraseña</h5>
+            <h5 style={{ marginTop: '10px', marginRight: '370px' }}>🔒Contraseña</h5>
             <input
               placeholder="    Ingresa tu contraseña"
               type="password"  //tipo de input (aprender los diversos tipos de input que hay)
@@ -111,6 +118,7 @@ function App() {
               ¿No tienes una  cuenta? <a style={{ color: '#2fb166', fontWeight: 'bold' }}>Registrate</a>
             </h5>
             <button
+              onClick={TocarBoton}
               style={{
                 width: '480px',
                 backgroundColor: '#2fb166',
@@ -134,3 +142,4 @@ function App() {
 }
 
 export default App
+//aprenderme todos los tipos de input, num, pass, text, email y mas
