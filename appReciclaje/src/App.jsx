@@ -1,14 +1,14 @@
 
 import { useState } from 'react'
 import react from 'react';
-import Login from './components/Login.jsx';
+import Login from './Login/Login.jsx';
 
 
 //app principal
 function App() {
   return (
     <div>
-      <Login />
+      hola
     </div>
   );
 }

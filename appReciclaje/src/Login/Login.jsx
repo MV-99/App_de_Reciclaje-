@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react'
-//iconos 
+import { useState } from 'react';
 import RecyclingIcon from '@mui/icons-material/Recycling';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
