@@ -9,8 +9,16 @@ function App() {
 
   return (
     <>
-      <Navbar />
-
+      <header>
+        <Navbar />
+      </header>
+      
+      
+      <body>
+        <Cards />
+        <Record />
+      </body>
+      
     </>
   )
 }
