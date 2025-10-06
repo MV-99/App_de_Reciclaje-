@@ -31,7 +31,7 @@ export default function Register() {
     function TocarBoton() {
 
         return (
-            alert("No se puede iniciar sesion, la pagina esta en construccion, gracias🦄🪴🦋")
+            alert("No se puede registrar, la pagina esta en construccion, gracias🪴")
 
         );
     }
