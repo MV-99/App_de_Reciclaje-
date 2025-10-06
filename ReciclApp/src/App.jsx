@@ -6,18 +6,16 @@ import Login from './app/user/login/Login.jsx'
 import Buttons from './app/home/components/buttons/buttons.jsx' 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar/>
       </header>
 
-      <section id="main-content">
-        <Cards />
-        <Buttons />
-        <Record />
+      <section  id="main-content">
+        <Cards/>
+        <Buttons/>
+        <Record/>
       </section>
     </>
   )
