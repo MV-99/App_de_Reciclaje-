@@ -10,11 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
-      <Cards />
-      <Record />
 
-      <Login />
     </>
   )
 }
