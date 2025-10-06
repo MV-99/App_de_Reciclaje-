@@ -1,0 +1,36 @@
+.buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+button{
+    width: 20%;
+    margin: 1rem 1rem 1rem 0;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #ECF7F1;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-registrar-material{
+    background-color: #2FB166;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-canjear-puntos{
+    background-color: #ffffff;
+    color: #2FB166;
+    font-weight: 600;
+    border: #2FB166 solid 2px;
+}
