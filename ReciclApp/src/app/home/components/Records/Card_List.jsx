@@ -1,4 +1,3 @@
-import './Card_list.css';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import ChangeHistoryOutlinedIcon from '@mui/icons-material/ChangeHistoryOutlined';
 import LiquorOutlinedIcon from '@mui/icons-material/LiquorOutlined';

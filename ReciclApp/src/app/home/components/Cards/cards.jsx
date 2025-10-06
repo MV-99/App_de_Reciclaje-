@@ -1,4 +1,4 @@
-import './cards.css'
+import '../../../../styles/cards.css'
 
 function Cards() {
   const data = [
@@ -27,11 +27,6 @@ function Cards() {
         ))}
       </div>
       
-      <button type="submit">Registrar reciclaje</button>
-      <div className="espacio">
-
-      </div>
-
 
 
     </>

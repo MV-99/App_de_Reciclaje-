@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100vw;
+    border-bottom: #BFBFBF solid 1px;
+}
+
+nav .logo div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+nav .logo span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+nav .logo img{
+    width: 3rem;
+    height: 3rem;
+}
+
+nav .profile img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+   
+    nav .logo div{
+        font-size: 1rem;
+    }
+    nav .logo img{
+        width: 2rem;
+        height: 2rem;
+    }
+    nav .logo span{
+        font-size: 0.6rem;
+    }
+    nav .profile img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

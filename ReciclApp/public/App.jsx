@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import Cards from './components/cards/cards';
-import './App.css'
-import Record from './pages/Home/Components/Record/Record'
-
-
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Navbar from './app/components/layout.jsx'
+import Record from './app/home/components/Records/Record.jsx'
+import Cards from './app/home/components/Cards/cards.jsx'
+import Login from './app/user/login/Login.jsx'
 
 function App() {
-  
+  const [count, setCount] = useState(0)
+
   return (
     <>
       <div>
@@ -30,11 +32,12 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
+      <Navbar />
+      <Login />
+      <Cards />
       <Record />
-    <div><Cards/></div>
-
     </>
-  );
+  )
 }
 
-export default App;
+export default App
