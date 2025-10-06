@@ -2,19 +2,16 @@ import { useState } from 'react'
 import Navbar from './app/components/navbar.jsx'
 import Record from './app/home/components/Records/Record.jsx'
 import Cards from './app/home/components/Cards/cards.jsx'
-import Login from './app/user/login/Login.jsx'
+import Login from './app/user/login/Login.jsx';
+import Register from './app/user/Register/Register.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
+      <Register/>
       
-      <Cards />
-      <Record />
-
-      <Login />
     </>
   )
 }
