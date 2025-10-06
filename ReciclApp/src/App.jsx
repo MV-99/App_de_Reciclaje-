@@ -9,10 +9,16 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Cards />
-      <Record />
-      <Login />
+      <header>
+        <Navbar />
+      </header>
+      
+      
+      <body>
+        <Cards />
+        <Record />
+      </body>
+      
     </>
   )
 }
