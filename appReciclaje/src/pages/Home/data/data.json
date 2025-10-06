@@ -1,0 +1,38 @@
+[
+    {
+        "material": "Electrónico",
+        "peso": "30",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    },
+    {
+        "material": "Plástico",
+        "peso": "5.2",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    },
+    {
+        "material": "Papel",
+        "peso": "3.8",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    },
+    {
+        "material": "Electrónico",
+        "peso": "30",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    },
+    {
+        "material": "Plástico",
+        "peso": "5.2",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    },
+    {
+        "material": "Papel",
+        "peso": "3.8",
+        "puntos": "600",
+        "fecha": "2025-10-01"
+    }
+]
