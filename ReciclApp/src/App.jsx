@@ -14,7 +14,6 @@ function App() {
 
       <section  id="main-content">
         <Cards/>
-        <Buttons/>
         <Record/>
       </section>
 
