@@ -1,5 +1,4 @@
-import React from 'react';
-import '../../styles/Inputs.css';
+import '@styles/Inputs.css';
 
 export default function Input({placeholder, type, className, maxLength}) {
     return (

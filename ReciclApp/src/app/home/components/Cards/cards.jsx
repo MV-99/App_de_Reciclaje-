@@ -1,6 +1,4 @@
-import '../../../../styles/cards.css'
-
-
+import '@styles/cards.css'
 
 function Cards() {
   const data = [

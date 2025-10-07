@@ -1,4 +1,4 @@
-import "../../../../styles/buttons.css";
+import "@styles/buttons.css";
 import RecyclingIcon from '@mui/icons-material/Recycling';
 import TollIcon from '@mui/icons-material/Toll';
 

@@ -3,12 +3,10 @@ import { useState } from 'react';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Input from '../../components/inputs.jsx';
-import '../../../styles/boton.css';
+import '@styles/boton.css';
 import Circulo from '../../components/logo.jsx';
 
 export default function Register() {
-
-
     const [email, setEmail] = useState("");
     const [emailError, setEmailError] = useState("");
     const maxLength = 16;
