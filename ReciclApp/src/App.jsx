@@ -1,24 +1,24 @@
 import { useState } from 'react'
-import Navbar from './app/components/navbar.jsx'
-import Record from './app/home/components/Records/Record.jsx'
-import Cards from './app/home/components/Cards/cards.jsx'
-import Login from './app/user/login/Login.jsx'
+import Navbar from '@components/navbar.jsx'
+import Record from '@home/components/Records/Record.jsx'
+import Cards from '@home/components/Cards/cards.jsx'
+import Login from '@user/login/Login.jsx'
+import Buttons from '@home/components/buttons/buttons.jsx' 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar/>
       </header>
-      
-      
-      <body>
-        <Cards />
-        <Record />
-      </body>
-      
+
+      <section  id="main-content">
+        <Cards/>
+        <Buttons/>
+        <Record/>
+      </section>
+
+      <Login />
     </>
   )
 }
