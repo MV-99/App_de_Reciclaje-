@@ -16,7 +16,7 @@ function ModalRegistrarMaterial({ isOpen, onClose }) {
             <div>
                 <h2>Registrar Material Reciclado</h2>
                 <p>Ingresa el tipo de material y peso para calcular tus puntos</p>
-                <p>Tipo de Material</p>
+                <p>💡Tipo de Material</p>
                 <select name="material" id="">
                     <option value="plastico">plastico</option>
                     <option value="papel">papel</option>

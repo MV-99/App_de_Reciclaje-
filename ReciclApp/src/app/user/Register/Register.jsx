@@ -54,7 +54,7 @@ export default function Register() {
             >
                 <Circulo size={75} color="#2fb166" />
                 <h2 style={{ fontSize: '30px', marginTop: '10px' }}>¡Bienvenido a EcoPoints!</h2>
-                <h4 style={{ marginTop: '-30px', fontWeight: 'normal' }}></h4>Ingresa tus datos y registrate con nosotros
+                <h4 style={{ marginTop: '10px', fontWeight: 'normal' }}></h4>Ingresa tus datos y registrate con nosotros
                 <div style={{ marginTop: '90px' }}>
                     <h5 style={{ marginTop: '-50px', marginRight: '10px' }}><MailOutlineIcon style={{ fontSize: '15px', color: 'green' }} />  Ingresa usuario u correo:</h5>
                     <Input
