@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import RecyclingIcon from '@mui/icons-material/Recycling';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import Input from '../../components/inputs.jsx'; //pasar
-import '../../../styles/boton.css'; //pasar
-import Circulo from '../../components/logo.jsx'; //pasar
+import Input from '@components/inputs.jsx'; //pasar
+import '@styles/boton.css'; //pasar
+import Circulo from '@components/logo.jsx'; //pasar
 
 
 
