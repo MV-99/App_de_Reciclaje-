@@ -2,9 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import Input from '../../components/inputs.jsx';
-import '../../../styles/boton.css';
-import Circulo from '../../components/logo.jsx';
+import Input from '../../components/inputs.jsx'; //pasar
+import '../../../styles/boton.css'; //pasar
+import Circulo from '../../components/logo.jsx'; //pasar
 
 export default function Register() {
 
