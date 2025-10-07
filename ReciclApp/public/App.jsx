@@ -1,10 +1,15 @@
 import { useState } from 'react'
+<<<<<<< HEAD:appReciclaje/src/App.jsx
+import './App.css'
+import Record from './pages/Home/Components/Record/Record'
+=======
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './app/components/layout.jsx'
 import Record from './app/home/components/Records/Record.jsx'
 import Cards from './app/home/components/Cards/cards.jsx'
 import Login from './app/user/login/Login.jsx'
+>>>>>>> 3e2d32b5402c6d425878453a8b6a9661fd6ac9e2:ReciclApp/public/App.jsx
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,4 +45,8 @@ function App() {
   )
 }
 
+<<<<<<< HEAD:appReciclaje/src/App.jsx
+export default App;
+=======
 export default App
+>>>>>>> 3e2d32b5402c6d425878453a8b6a9661fd6ac9e2:ReciclApp/public/App.jsx
