@@ -2,7 +2,7 @@ import '@styles/cards.css'
 
 function Cards() {
   const data = [
-    { titulo: "Puntos totales:", valor: "0", desc: "Próxima recompensa:", extra: "1500 pts" },
+    { titulo: "Puntos totales:", valor: "0", /*desc: "Próxima recompensa:", extra: "1500 pts" */},
     { titulo: "Valor en dinero:", valor: "$0.00", desc: "1 punto = $0.10" },
     { titulo: "Materiales reciclados:", valor: "0", desc: "Este mes." }
   ];
