@@ -1,7 +1,5 @@
 import '../../../../styles/cards.css'
 
-
-
 function Cards() {
   const data = [
     { titulo: "Puntos totales:", valor: "0", desc: "Próxima recompensa:", extra: "1500 pts" },
