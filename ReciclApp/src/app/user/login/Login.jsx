@@ -4,6 +4,8 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Input from '@components/inputs.jsx'; //pasar
 import '@styles/boton.css'; //pasar
 import Circulo from '@components/logo.jsx'; //pasar
+import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -13,7 +15,7 @@ export default function Login() {
     const [email, setEmail] = useState("");
     const [emailError, setEmailError] = useState("");
     const maxLength = 40; //cantidad maxima de caracteres 
-
+    const navigate = useNavigate();
 
     //validacion de error de input email
     const handleEmailChange = (e) => {
@@ -40,8 +42,8 @@ export default function Login() {
     return (
 
         <div style={{
-            marginTop: '155px', display: 'center',
-            placeItems: 'center'
+            marginTop: '225px', display: 'center',
+            placeItems: 'center', marginLeft: '660px'
         }}>
             <div
                 style={{
@@ -81,10 +83,10 @@ export default function Login() {
 
                     />
                     <h5 style={{ marginTop: '15px', fontWeight: 'normal', marginLeft: '140px', fontSize: '14px' }}>
-                        ¿No tienes una  cuenta? <a style={{ color: '#2fb166', fontWeight: 'bold' }}>Registrate</a>
+                        ¿No tienes una  cuenta? <a onClick={() => navigate('/register')} style={{ color: '#2fb166', fontWeight: 'bold' }}>Registrate</a>
                     </h5>
                     <button
-                        onClick={TocarBoton}
+                        onClick={() => navigate('/dashboard')}
                         className="boton"
                     >
                         Iniciar Sesion

@@ -11,3 +11,8 @@
     cursor:pointer;
     font-weight:normal;
 }
+
+.alert {
+    width:100px;
+    height:50px;
+}
