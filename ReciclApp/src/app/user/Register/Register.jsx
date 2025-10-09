@@ -1,16 +1,38 @@
-import React from 'react';
 import { useState } from 'react';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import Input from '../../components/inputs.jsx';
+import Input from '@components/inputs.jsx';
 import '@styles/boton.css';
-import Circulo from '../../components/logo.jsx';
+import Circulo from '@components/logo.jsx';
+import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import '@styles/boton.css';
+
+function handleClick() {
+
+    return (
+        Swal.fire({
+            title: '¡oh no!',
+            text: 'Lo sentimos, aun no esta disponible esta función, se paciente😪',
+            icon: 'error',
+            background: '#ECF7F1',
+            color: '#2FB166',
+            confirmButtonColor: '#2FB166',
+            confirmButtonText: 'Okey',
+            iconColor: '#2FB166',
+            customClass: {
+                confirmButton: 'alert'
+            }
+
+        })
+    );
+}
 
 export default function Register() {
     const [email, setEmail] = useState("");
     const [emailError, setEmailError] = useState("");
     const maxLength = 16;
-
+    const navigate = useNavigate();
 
     //validacion de error de input email
     const handleEmailChange = (e) => {
@@ -25,20 +47,13 @@ export default function Register() {
         }
     };
 
-    //funcion prueba de boton
-    function TocarBoton() {
 
-        return (
-            alert("No se puede registrar, la pagina esta en construccion, gracias🪴")
-
-        );
-    }
 
     return (
 
         <div style={{
-            marginTop: '60px', display: 'center',
-            placeItems: 'center'
+            marginTop: '190px', display: 'center',
+            placeItems: 'center', marginLeft: '650px'
         }}>
             <div
                 style={{
@@ -54,7 +69,7 @@ export default function Register() {
             >
                 <Circulo size={75} color="#2fb166" />
                 <h2 style={{ fontSize: '30px', marginTop: '10px' }}>¡Bienvenido a EcoPoints!</h2>
-                <h4 style={{ marginTop: '-30px', fontWeight: 'normal' }}></h4>Ingresa tus datos y registrate con nosotros
+                <h4 style={{ marginTop: '10px', fontWeight: 'normal' }}></h4>Ingresa tus datos y registrate con nosotros
                 <div style={{ marginTop: '90px' }}>
                     <h5 style={{ marginTop: '-50px', marginRight: '10px' }}><MailOutlineIcon style={{ fontSize: '15px', color: 'green' }} />  Ingresa usuario u correo:</h5>
                     <Input
@@ -86,10 +101,10 @@ export default function Register() {
 
                     />
                     <h5 style={{ marginTop: '15px', fontWeight: 'normal', marginLeft: '140px', fontSize: '14px' }}>
-                        ¿Ya tienes una  cuenta? <a style={{ color: '#2fb166', fontWeight: 'bold' }}>Inicia sesion</a>
+                        ¿Ya tienes una  cuenta? <a onClick={() => navigate('/')} style={{ color: '#2fb166', fontWeight: 'bold' }}>Inicia sesion</a>
                     </h5>
                     <button
-                        onClick={TocarBoton}
+                        onClick={handleClick}
                         className="boton"
                     >
                         Registrate
