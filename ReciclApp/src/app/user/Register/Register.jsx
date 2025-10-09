@@ -1,13 +1,12 @@
-import React from 'react';
 import { useState } from 'react';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import Input from '../../components/inputs.jsx';
+import Input from '@components/inputs.jsx';
 import '@styles/boton.css';
-import Circulo from '../../components/logo.jsx';
+import Circulo from '@components/logo.jsx';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import '../../../styles/boton.css';
+import '@styles/boton.css';
 
 function handleClick() {
 

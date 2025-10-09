@@ -1,10 +1,10 @@
 import "@styles/buttons.css";
 import RecyclingIcon from '@mui/icons-material/Recycling';
 import TollIcon from '@mui/icons-material/Toll';
-import ModalRegistrarMaterial from "../modal_reg_material/reg_material";
+import ModalRegistrarMaterial from "@home/components/modal_reg_material/reg_material";
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import '../../../../styles/modal2.css';
+import '@styles/modal2.css';
 
 
 
