@@ -20,9 +20,11 @@
 
   #main-content{
     padding-top: 1.5rem;
-    width: 100svw;
+    width: 100px;
+    height:100px;
     padding: 2rem;
     background-color: #ECF7F1;
+    
   }
 
   body{

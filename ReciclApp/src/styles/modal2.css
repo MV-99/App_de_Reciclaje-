@@ -1,0 +1,33 @@
+.mi-modal {
+    width: 600px;
+    height: 370px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+
+    .input-mio {
+        width: 560px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1px solid #2FB166;
+        outline: none;
+    }
+
+    .boton-mio {
+        width: 560px;
+        height: 45px;
+        color: white;
+        background-color: #2FB166;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
