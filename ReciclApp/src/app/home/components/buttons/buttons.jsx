@@ -60,9 +60,10 @@ function Buttons() {
                     className="input-mio"
                 />
                 <h5 style={{ fontWeight: 'normal', marginTop: '10px' }}>Minimo 100 puntos</h5>
+                <button className="boton-mio">Canjear ahora</button>
                 <button onClick={closeModal}
-                    className="boton-mio"
-                >Close</button>
+                    className="botonbye"
+                >Cerrar</button>
             </Modal>
             <ModalRegistrarMaterial isOpen={modalOpen} onClose={cerrarModalRegistrarMaterial} />
         </div>

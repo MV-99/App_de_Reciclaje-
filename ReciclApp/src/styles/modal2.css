@@ -1,6 +1,6 @@
 .mi-modal {
     width: 600px;
-    height: 370px;
+    height: 420px;
     margin: auto;
     position: fixed;
     top: 50%;
@@ -31,9 +31,16 @@
         cursor: pointer;
     }
 
+    .botonbye {
+        margin-left: 220px;
+        color: #2FB166;
+        background-color: white;
+        font-weight: bold;
+    }
 
 
 }
+
 /*este es del modal de salir*/
 .ReactModal__Overlay {
     background-color: rgba(0, 0, 0, 0.3) !important;
@@ -41,49 +48,88 @@
 }
 
 .modalSalir {
-        width: 300px;
-        height: 250px;
-        margin: auto;
-        position: fixed;
-        top: 20%;
-        left: 91%;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+
+
+    .cerrar {
+        color: #1d8a4b;
         background-color: white;
-
-
-     .cerrar{
-        color:#1d8a4b;
-        background-color:white;
-        width:140px;
-        height:40px;
-        font-size:13px;
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
         font-weight: bold;
-        font-size:15px;
-        margin-left:60px;
-        
-     }
-     .salir{
-        width:140px;
-        height:40px;
-        border-radius: 20px;
-        color:white;
-        background-color:rgb(252, 78, 78);
-        font-size:13px;
-         margin-left:60px;
-     }
+        font-size: 15px;
+        margin-left: 60px;
 
-     .verPerfil{
-        width:140px;
-        height:40px;
-        border-radius: 20px;
-        color:white;
-        background-color:#2fb166;
-        font-size:13px;
-         margin-left:60px;
-         margin-top:30px;
-     }
     }
+
+    .salir {
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(252, 78, 78);
+        font-size: 13px;
+        margin-left: 60px;
+    }
+
+    .verPerfil {
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        background-color: #2fb166;
+        font-size: 13px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+}
+
+.drop_menu {
+    width: 250px;
+    margin-top: 13px;
+    height: 38px;
+    border-radius: 10px;
+    border-color: #2fb166;
+    border: 2px solid #72b874ff;
+    outline: none;
+
+}
+
+.inputmas {
+    width: 530px;
+    height: 40px;
+    margin-top: 23px;
+    border-radius: 10px;
+    border-color: #2fb166;
+    border: 2px solid #72b874ff;
+    outline: none;
+
+}
+
+.boton2 {
+    width: 530px;
+    height: 43px;
+    color: white;
+    background-color: #2FB166;
+    border: none;
+
+}
+
+.boton3 {
+    margin-left: 210px;
+    color: #2FB166;
+    background-color: white;
+    font-weight: bold;
+}
