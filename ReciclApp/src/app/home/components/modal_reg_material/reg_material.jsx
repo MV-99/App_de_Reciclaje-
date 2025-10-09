@@ -21,9 +21,9 @@ function ModalRegistrarMaterial({ isOpen, onClose }) {
                 <p>Ingresa el tipo de material y peso para calcular tus puntos</p>
                 <p style={{ marginTop: '6px', fontWeight: 'bold' }}>Tipo de Material</p>
                 <select name="material" id="" className="drop_menu">
-                    <option value="plastico">plastico</option>
-                    <option value="papel">papel</option>
-                    <option value="metal">metal</option>
+                    <option value="plastico">Plastico</option>
+                    <option value="papel">Papel</option>
+                    <option value="metal">Metal</option>
                 </select>
                 <p style={{ fontWeight: 'bold', marginTop: '10px' }}>Peso(Kg)</p>
                 <input type="number" placeholder="  0.0 kg" min="0" className="inputmas" />
