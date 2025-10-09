@@ -1,6 +1,6 @@
 import Card_List from "./Card_List";
-import data from './data.json';
-import '../../../../styles/Record_list.css'
+import data from '@data/data_record_materials.json';
+import '@styles/Record_list.css';
 
 
 function Record(){
