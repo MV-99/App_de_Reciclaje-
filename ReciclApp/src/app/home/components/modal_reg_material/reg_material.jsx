@@ -14,7 +14,7 @@ function ModalRegistrarMaterial({ isOpen, onClose }) {
                 boxShadow: '4 4px 10px rgba(11, 10, 10, 0.3)',
                 backgroundColor: 'white',
                 width: '30vw',
-                height: '21vw'
+                height: '23vw'
             }}>
             <div>
                 <h2>Registrar Material Reciclado</h2>
