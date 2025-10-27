@@ -1,5 +1,5 @@
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
-import ChangeHistoryOutlinedIcon from '@mui/icons-material/ChangeHistoryOutlined';
+import ChangeHistoryOutlinedIcon from '@mui/icons-material/Recycling';
 import LiquorOutlinedIcon from '@mui/icons-material/LiquorOutlined';
 
 function Icon({icon}){
